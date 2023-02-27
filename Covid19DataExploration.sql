@@ -5,7 +5,7 @@ Exploring COVID-19 Data
 */
 
 SELECT *
- FROM Covid19..Deaths
+FROM Covid19..Deaths
 WHERE continent IS NOT NULL
 ORDER BY location, date
 
